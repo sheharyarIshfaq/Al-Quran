@@ -1,0 +1,57 @@
+.container {
+  padding: 2rem 4rem;
+}
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.details {
+  background-color: #39a2db;
+  color: #fff;
+  padding: 1.4rem;
+  border-radius: 6px;
+}
+.details h2 {
+  letter-spacing: 1px;
+}
+.details p {
+  margin: 10px 0;
+}
+.details button {
+  background-color: transparent;
+  outline: 0;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+.details button:hover {
+  background-color: #fff;
+  color: #2c2e43;
+}
+.surahAyats {
+  margin-top: 2rem;
+  padding: 1.4rem;
+  text-align: right;
+  border: 2px solid #39a2db;
+  color: #2c2e43;
+  border-radius: 6px;
+}
+.surahAyats .ayatText {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+.surahAyats .ayatNumber {
+  font-size: 1.4rem;
+  margin: 8px;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+}
